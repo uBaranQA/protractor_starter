@@ -1,0 +1,15 @@
+{
+    "extends": "eslint:recommended",
+
+    "env": {
+        "browser": true,
+        "node": true,
+        "jasmine": true,
+        "protractor": true
+    },
+
+    "rules": {
+        "no-debugger": 0
+    },
+    
+}
