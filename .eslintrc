@@ -1,7 +1,12 @@
 {
     "extends": "eslint:recommended",
 
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+
     "env": {
+        "es6": true,
         "browser": true,
         "node": true,
         "jasmine": true,
@@ -9,7 +14,8 @@
     },
 
     "rules": {
-        "no-debugger": 0
-    },
+        "no-debugger": 0,
+        "no-reserved-keys": 0
+    }
     
 }
